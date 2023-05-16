@@ -1,0 +1,341 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.lightbluecontainer{
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(96, 171, 246);
+}
+
+
+.topcontainer{
+    width: 100%;
+    height: 430px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    
+    justify-content: center;
+    /* align-items: center; */
+    
+
+}
+
+.Screenshot37{
+margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.centercontainer{
+    width: 100%;
+    height: 900px;
+    /* background-color: blueviolet; */
+    display: flex;
+
+}
+.textside{
+    width: 36%;
+    height: auto;
+    text-align: justify;
+    /* background-color: aqua; */
+    
+}
+p{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 70px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+.divcontainer{
+    width: 59.5%;
+    height: 770px;
+    background-color: brown;
+    display: flex;
+}
+.maincontainer{
+    width: 97.5%;
+    height: 490px;
+    background-color: aqua;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    
+}
+.divone{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(7, 7, 118);
+}
+.h1one{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+.divtwo{
+    width: 100%;
+    height: 190px;
+    background-color: rgb(153, 247, 216);
+}
+.ullione{
+    padding-left: 60px;
+    padding-top: 20px;
+
+}
+.ullione li{
+    color: rgb(7, 7, 118);
+    padding: 2px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.divthree{
+    width: 100%;
+    height:55px ;
+    background-color:rgb(7, 7, 118) ;
+}
+.h1two{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+.divfour{
+    width: 100%;
+    height:190px ;
+    background-color:rgb(153, 249, 217) ;
+}
+.ullitwo{
+    padding-left: 60px;
+    padding-top: 20px; 
+}
+.ullitwo li{
+    color: rgb(7, 7, 118);
+    padding: 2px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.phonecontainer{
+    width: 370px;
+    height: 420px;
+    background-color:rgb(6, 6, 112) ;
+    margin-top: 280px;
+    position: absolute;
+    margin-left:422px ;
+    border-radius:50px 50px 0px 0px ;
+   
+
+}
+
+.h1youcan{
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+    padding-left:29px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* letter-spacing: 1px; */
+    
+}
+.phonecon1{
+    width: 95px;
+    height: 42px;
+    background-color: rgb(7, 174, 174);
+    /* position: absolute; */
+    margin-top: 36px;
+    margin-left: 30px;
+    text-align: center;
+    
+
+}
+.h2duration{
+    color: white;
+    /* text-align: center; */
+    align-items: center;
+    font-size:20px ;
+    padding-top: 8px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h1twodays{
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, 
+    Verdana, sans-serif;
+    padding-left: 30px;
+}
+.phonecon2{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(7, 174, 174);
+    /* position: absolute; */
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+.investment{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+     sans-serif;
+     font-size: 22px;
+     padding-top: 7px;
+     color: white;
+} 
+
+.pmoney{
+    color: white;
+    font-size: 40px;
+    padding-top:0px ;
+    padding-left: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+     sans-serif;
+     
+
+}
+.individual{
+    color: white;
+    padding-left: 30px;
+    padding-top: 1px;
+    font-size:18px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, 
+    Verdana, sans-serif;
+}
+.pgroup{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding-left: 30px;
+    font-style: italic;
+
+}
+.btn{
+    width: 210px;
+    height: 70px;
+    background-color: rgb(38, 127, 237);
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 310px;
+    color: white;
+    font-size: 35px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Gofootertext{
+    background-color: rgb(175, 17, 17);
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.foot1{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.foot2{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+    display:block;
+}
+.foot3{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.foot4{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.debrill{
+    padding-top: 130px;
+    padding-left: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+
+}
+.footbox1text{
+    padding-left: 80px;
+    padding-top: 25px;
+    font-family: sans-serif;
+    font-size:17px ;
+    color: white;
+
+}
+.services{
+    padding-top:110px ;
+    padding-left:40px ;
+    font-family: sans-serif;
+    color: white;
+}
+.listbox2{
+    padding-left:40px ;
+    padding-top:25px ;
+
+}
+.listl li{
+    padding: 8px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.ourproduct{
+    padding-top: 110px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+.listbox3{
+    padding-left:40px ;
+    padding-top:25px ;
+}
+.listbox3 li{
+    padding: 8px;
+    color: white;
+    font-family: sans-serif;
+}
+.socials{
+    padding-top: 110px;
+    padding-left: 40px; 
+    font-family: sans-serif;
+    color: white;
+}

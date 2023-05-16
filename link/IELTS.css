@@ -1,0 +1,380 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.lightbluecontainer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+
+.topcontainer{
+    width: 100%;
+    height: 225px;
+    background-color:white;
+       /* display: flex; */
+
+
+}
+.Screenshot54{
+    margin: 20px 0px 0px 350px;
+}
+
+
+
+.centercontainer{
+    width: 100%;
+    height: 1110px;
+    background-color: rgb(66, 157, 247);
+    display: flex;
+
+}
+.textside{
+    width: 36%;
+    height: auto;
+    /* text-align: justify; */
+    /* background-color: aqua; */
+    
+}
+p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    padding-left: 70px;
+    padding-right: 19px;
+    padding-top: 20px;
+}
+.divcontainer{
+    width: 64%;
+    height: auto;
+    /* background-color: brown; */
+    display: flex;
+}
+.maincontainer{
+    width: 90%;
+    height: 600px;
+    /* background-color: rgb(9, 15, 15); */
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    
+}
+.divone{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(7, 7, 118);
+}
+.h1one{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+.divtwo{
+    width: 100%;
+    height: 161px;
+    background-color: rgb(153, 247, 216);
+}
+.ullione{
+    padding-left: 60px;
+    padding-top: 20px;
+
+}
+.ullione li{
+    color: rgb(7, 7, 118);
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.divthree{
+    width: 100%;
+    height:55px ;
+    background-color:rgb(7, 7, 118) ;
+}
+.h1two{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+.divfour{
+    width: 100%;
+    height:260px ;
+    background-color:rgb(153, 249, 217) ;
+}
+.ullitwo{
+    padding-left: 60px;
+    padding-top: 20px; 
+}
+.ullitwo li{
+    color: rgb(7, 7, 118);
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.phonecontainer{
+    width: 380px;
+    height: 720px;
+    background-color:rgb(9, 9, 89) ;
+    border-radius:50px 50px 0px 0px ;
+    margin-top: 310px;
+    position: absolute;
+    margin-left: 417px;
+    /* display: block; */
+
+
+}
+.inpack{
+background-color: rgb(121, 205, 228);
+width: 230px;
+height: 45px;
+color: white;
+margin-left: 30px;
+margin-top: 30px;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-top: 14px;
+font-size: 23px;
+font-weight: bolder;
+position: absolute;
+}
+
+.onsite{
+    background-color: rgb(160, 204, 216);
+    width: 200px;
+    height: 45px;
+    color: white;
+    margin-left:30px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 68px;
+
+}
+
+.preparation{
+    margin-top: 100px;
+    background-color: rgb(10, 132, 165);
+    width: 180px;
+    height: 45px;
+    color: white;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+}
+.no30{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px ;
+    /* font-weight: bolder; */
+    padding-left: 30px;
+    padding-top: 160px;
+
+}
+
+.phonedu{
+    background-color:rgb(10, 132, 165) ;
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size:25px ;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;
+}
+.twodays{
+    color: white;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+.no40{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px ;
+    /* font-weight: bolder; */
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.threedays{
+    color: white;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+
+.no50{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px ;
+    /* font-weight: bolder; */
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.fivedays{
+    color: white;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+.btn{
+    position: absolute;
+    width: 260px;
+    height: 80px;
+    background-color: brown;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:23px ;
+    margin-top: 62px;
+    margin-left: px;
+}
+
+
+.centercontext{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(66, 157, 247);
+    margin-top: 80px;
+
+}
+.happyclient{
+    background-color: rgb(214, 24, 24);
+    width: 100%;
+    height: 50px;
+    margin-top: 80px;
+}
+.happyclient{
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+padding-left: 150px;
+}
+.slidecontainer{
+    width: 100%;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Gofootertext{
+    background-color: rgb(175, 17, 17);
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.foot1{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.foot2{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+    display:block;
+}
+.foot3{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.foot4{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.debrill{
+    padding-top: 130px;
+    padding-left: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+
+}
+.footbox1text{
+    padding-left: 80px;
+    padding-top: 25px;
+    font-family: sans-serif;
+    font-size:17px ;
+    color: white;
+
+}
+.services{
+    padding-top:110px ;
+    padding-left:40px ;
+    font-family: sans-serif;
+    color: white;
+}
+.listbox2{
+    padding-left:40px ;
+    padding-top:25px ;
+
+}
+.listl li{
+    padding: 8px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.ourproduct{
+    padding-top: 110px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+.listbox3{
+    padding-left:40px ;
+    padding-top:25px ;
+}
+.listbox3 li{
+    padding: 8px;
+    color: white;
+    font-family: sans-serif;
+}
+.socials{
+    padding-top: 110px;
+    padding-left: 40px; 
+    font-family: sans-serif;
+    color: white;
+}

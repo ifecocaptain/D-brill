@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    background-color: antiquewhite;
+    height: 2900px;
+}
+.firstwhite{
+    width: 100%;
+    height: 670px;
+    background-color: rgb(243, 236, 236);
+
+}
+.black{
+    width: 100%;
+    height: 670px;
+    background-color: rgb(92, 91, 91);
+}
+.sewhite{
+width: 100%;
+height: 680px;
+background-color: white;
+}
+
+.brown{
+    width: 100%;
+    height: 670px;
+    background-color: rgb(219, 218, 215);
+}
+.footend{
+    width: 100%;
+    height: 770px;
+    background-color: rgb(65, 55, 75);
+}
+.footendblue{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(7, 48, 231);
+}

@@ -1,0 +1,319 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.headimage{
+    width: 100%;
+    height: 470px;
+    background-color:white;
+}
+.Screenshot32{
+    margin-left: 340px;
+    margin-top: 80px;
+}
+
+
+hr{
+    color: orange;
+    border-style:double;
+}
+
+
+
+.textpart{
+    width: 100%;
+    height: 280px;
+    background-color: white;
+    
+
+
+}
+.p1{
+font-family: sans-serif;
+color: rgb(116, 105, 105);
+padding-top: 25px;
+padding-left: 120px;
+font-size: 16px;
+line-height: 2;
+
+
+}
+.p2{
+    font-family: sans-serif;
+color: rgb(116, 105, 105);
+/* padding-top: 10px; */
+padding-left: 120px;
+font-size: 16px;
+line-height: 2;
+}
+
+
+.boxlist{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 510px;
+    display: flex;
+
+}
+.englishpart{
+    width: 50%;
+    height: auto;
+    /* background-color: rgb(136, 151, 151); */
+    
+}
+.theenglishdiv{
+    width: 510px;
+    height: 90px;
+    background-color:orangered;
+    margin-left: 110px;
+    border-radius: 18px;
+    /* margin-bottom: 10px; */
+    text-align: center;
+    
+}
+.englishprogramme{
+    color: white;
+    font-family: sans-serif;
+    padding-top: 20px;
+    font-size: 22px;
+}
+.ullist{
+    color: white;
+    padding-left: 50px;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.ullist li{
+    padding: 5px;
+}
+
+
+
+
+.earlyyears{
+    width: 510px;
+    height: 310px;
+    background-color: rgb(245, 127, 9);
+    margin-left: 110px;
+    border-radius: 18px;
+    margin-top: 50px;
+}
+
+.amongpart{
+    width: 50%;
+    height: auto;
+    /* background-coclor: blue; */
+}
+
+.theamong{
+    width: 530px;
+    height: 90px;
+    background-color:orangered;
+    /* margin-right: 110px; */
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+.amongtext{
+    color: white;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 23px;
+}
+
+
+.transcription{
+    width: 510px;
+    height: 350px;
+    background-color: rgb(236, 117, 5);
+    margin-left: 20px;
+    border-radius: 18px;
+    margin-top: 50px;
+    /* text-align: center; */
+}
+.ultranscription{
+    color: white;
+    padding-left: 120px;
+    padding-top: 65px;
+
+}
+.ultranscription li{
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.Enjoypart{
+width: 100%;
+height: 420px;
+background-color: rgb(251, 249, 245);
+text-align: center;
+justify-content: center;
+}
+.youcan{
+    padding-top:40px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.startside{
+    width: 100%;
+    height: 180px;
+    /* background-color:rgb(232, 144, 11); */
+    display: flex;
+}
+.durationside{
+    width: 49.9%;
+    height: 200px;
+    /* background-color: rgb(46, 97, 141); */
+text-align: right;
+padding-right: 10px;
+}
+.twoweeks{
+    color:orangered;
+    font-family: sans-serif;
+    font-size:40px ;
+}
+.twohours{
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+.horizontaldiv{
+    width: 4px;
+    height: auto;
+    background-color: black;
+    border-radius: 5px;
+}
+.investmentside{
+    width: 49.8%;
+    /* background-color: aqua; */
+    height: auto;
+    text-align: left;
+    padding-left: 10px;
+}
+.money50k{
+    color: orangered;
+    font-size:40px ;
+}
+.bracket{
+    font-style: italic;
+    font-family: sans-serif;
+    font-size:17px ;
+}
+.grouptraning{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.starthere{
+    width: 220px;
+    height: 80px;
+    background-color: orangered;
+    border-radius: 15Px;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+.Gofootertext{
+    background-color: rgb(175, 17, 17);
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.foot1{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.foot2{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+    display:block;
+}
+.foot3{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.foot4{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.debrill{
+    padding-top: 130px;
+    padding-left: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+
+}
+.footbox1text{
+    padding-left: 80px;
+    padding-top: 25px;
+    font-family: sans-serif;
+    font-size:17px ;
+    color: white;
+
+}
+.services{
+    padding-top:110px ;
+    padding-left:40px ;
+    font-family: sans-serif;
+    color: white;
+}
+.listbox2{
+    padding-left:40px ;
+    padding-top:25px ;
+
+}
+.listl li{
+    padding: 8px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.ourproduct{
+    padding-top: 110px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+.listbox3{
+    padding-left:40px ;
+    padding-top:25px ;
+}
+.listbox3 li{
+    padding: 8px;
+    color: white;
+    font-family: sans-serif;
+}
+.socials{
+    padding-top: 110px;
+    padding-left: 40px; 
+    font-family: sans-serif;
+    color: white;
+}

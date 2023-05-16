@@ -1,0 +1,881 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    /* margin: 0%;
+    padding: 0%; */
+
+    width: 100%;
+    height: 2000px;
+    background-color: white;
+}
+
+.container{
+    width: 100%;
+    height: 1512px;
+    background-color: white;
+display: grid;
+grid-template-rows: repeat(4,1fr);
+grid-auto-columns: 100%;
+  
+}
+.shop{
+    width: 100%;
+    height: 155px;
+    background-color: white;
+    
+}
+.homelink{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(99, 94, 94);
+    padding-left: 100px;
+
+}
+.homelink a{
+    text-decoration: none;
+}
+.h3shop{
+    font-size:35px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.pshop{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(99, 94, 94);
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.selectclass{
+    margin-left: 1030px;
+    width:230px ;
+    height: 45px;
+    /* display: absolute; */
+    margin-bottom: 30px;
+
+}
+
+
+
+
+.book1{
+    width: 100%;
+    height: 453px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 100%;
+   
+}
+.container11{
+    width: 100%;
+    height:100% ;
+    background-color: white;
+    grid-template-columns: repeat(2,1fr);
+grid-auto-rows: 100%;
+}
+.imageside11{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+}
+.textside11{
+    width: 100%;
+    height: 30%;
+    background-color: wheat; 
+}
+.holder{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(122, 18, 18);
+    margin-left: 120px;
+
+}
+.sale11{
+    width: 45px;
+    height: 48px;
+    background-color: rgb(96, 160, 96);
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    margin-top: -10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.book11{
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.blend{
+
+padding-left: 120px;
+font-size: 20px;
+
+
+}
+.price{
+    padding-left: 120px;
+    
+}
+
+
+.btn{
+    
+    width: 120px;
+    height: 37px;
+    margin-left: 120px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.container12{
+    width: 100%;
+    height:100% ;
+    background-color: white; 
+}
+.imageside12{
+    width: 100%;
+    height: 70%;
+    background-color:white;
+}
+.textside12{
+    width: 100%;
+    height: 30%;
+    background-color: white; 
+}
+
+.sale12{
+    width: 45px;
+    height: 48px;
+    background-color: rgb(96, 160, 96);
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    margin-top: -10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.book12{
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+
+
+
+.container13{
+    width: 100%;
+    height:100% ;
+    background-color: white; 
+}
+
+.imageside13{
+    width: 100%;
+    height: 70%;
+    background-color:whit;
+}
+.textside13{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(214, 121, 121); 
+}
+.sale13{
+    width: 45px;
+    height: 48px;
+    background-color: rgb(96, 160, 96);
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    margin-top: -10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.book13{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+
+
+
+.container14{
+    width: 100%;
+    height:100% ;
+    background-color: white;
+    margin-top: 10px;
+}
+.imageside14{
+    width: 80%;
+    height: 67.8%;
+    background-color:rgb(17, 13, 13);
+}
+.textside14{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(185, 166, 129); 
+}
+.sale14{
+    width: 45px;
+    height: 48px;
+    background-color: rgb(96, 160, 96);
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    margin-top: -10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.book14{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book2{
+    width: 100%;
+    height: 453px;
+    /* background-color: rgb(109, 112, 112); */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 100%;
+   
+    background-color: rgb(4, 77, 77);
+}
+.container21{
+    width: 100%;
+    height:100% ;
+    background-color: rgb(10, 153, 236);
+}
+.imageside21{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(114, 80, 80);
+}
+.textside21{
+    width: 100%;
+    height: 30%;
+    background-color: white; 
+}
+/* .holder{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(122, 18, 18);
+    margin-left: 120px;
+
+} */
+.sale21{
+    width: 45px;
+    height: 48px;
+    background-color: rgb(99, 233, 128);
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    margin-top: -400px;
+    margin-left: 290px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.book21{
+
+    width: 338px;
+    height: 400px;
+    background-image: url(/books/Screenshot\ \(57.1\).png);
+    background-repeat: no-repeat;
+   align-content: center;
+   justify-content: center;
+    
+    
+}
+.blend21{
+
+padding-left: 100px;
+font-size: 20px;
+
+
+}
+.price{
+    padding-left: 120px;
+    
+    
+}
+
+
+.btn21{
+    
+    width: 120px;
+    height: 37px;
+    margin-left: 100px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container22{
+    width: 100%;
+    height:100% ;
+    background-color: rgb(69, 128, 89); 
+}
+
+.imageside22{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(17, 16, 16);
+}
+.textside22{
+    width: 100%;
+    height: 30%;
+    background-color: white; 
+}
+/* .holder22{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(122, 18, 18);
+    margin-left: 120px;
+
+} */
+.sale22{
+    width: 45px;
+    height: 48px;
+    background-color: rgb(99, 233, 128);
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    margin-top: -px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.book22{
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.master{
+
+/* padding-left: 120px; */
+font-size: 20px;
+
+
+}
+.price{
+    padding-left: 120px;
+    
+    
+}
+
+
+.btn{
+    
+    width: 120px;
+    height: 37px;
+    margin-left: 120px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.container23{
+    width: 100%;
+    height:100% ;
+    background-color: rgb(112, 65, 83); 
+}
+.imageside23{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(40, 206, 218);
+}
+.textside23{
+    width: 100%;
+    height: 30%;
+    background-color: white; 
+}
+/* .holder22{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(122, 18, 18);
+    margin-left: 120px;
+
+} */
+.sale23{
+    width: 45px;
+    height: 48px;
+    background-color: rgb(99, 233, 128);
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    margin-top: -px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.book23{
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.blend23{
+
+/* padding-left: 120px; */
+font-size: 20px;
+
+
+}
+.price{
+    padding-left: 120px;
+    
+    
+}
+
+
+.btn{
+    
+    width: 120px;
+    height: 37px;
+    margin-left: 120px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.container24{
+    width: 100%;
+    height:100% ;
+    background-color: rgb(31, 48, 192);
+}
+.imageside24{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(194, 34, 34);
+}
+.textside24{
+    width: 100%;
+    height: 30%;
+    background-color: white; 
+}
+/* .holder22{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(122, 18, 18);
+    margin-left: 120px;
+
+} */
+.sale24{
+    width: 45px;
+    height: 48px;
+    background-color: rgb(99, 233, 128);
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    margin-top: -px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.book24{
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.blend24{
+
+/* padding-left: 120px; */
+font-size: 20px;
+
+
+}
+.price{
+    padding-left: 120px;
+    
+    
+}
+
+
+.btn{
+    
+    width: 120px;
+    height: 37px;
+    margin-left: 120px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+.book3{
+    width: 100%;
+    height: 453px;
+    background-color: rgb(236, 243, 243);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 100%;
+   
+}
+
+.container31{
+    width: 100%;
+    height:100% ;
+    background-color: rgb(90, 103, 110);
+}
+.imageside31{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(240, 233, 233);
+    /* margin: 10%; */
+    justify-items: center;
+}
+.textside31{
+    width: 100%;
+    height: 30%;
+    background-color: white; 
+}
+.holder31{
+    width: 75%;
+    height: 80%;
+    background-color: rgb(4, 0, 8);
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(/books/Screenshot\ \(63\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+.sale31{
+    width: 45px;
+    height: 48px;
+    background-color: rgb(99, 233, 128);
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    margin-top: -6px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 220px;
+}
+.book31{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.blend31{
+
+/* padding-left: 120px; */
+font-size: 20px;
+
+
+}
+.price{
+    padding-left: 120px;
+    
+    
+}
+
+
+.btn{
+    
+    width: 120px;
+    height: 37px;
+    margin-left: 120px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+.container32{
+    width: 100%;
+    height:100% ;
+    background-color: rgb(13, 228, 84); 
+}
+
+.imageside32{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(86, 197, 21);
+}
+.textside32{
+    width: 100%;
+    height: 30%;
+    background-color: white; 
+}
+/* .holder22{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(122, 18, 18);
+    margin-left: 120px;
+
+} */
+.sale32{
+    width: 45px;
+    height: 48px;
+    background-color: rgb(99, 233, 128);
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    margin-top: -px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.book32{
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.blend32{
+
+/* padding-left: 120px; */
+font-size: 20px;
+
+
+}
+.price{
+    padding-left: 120px;
+    
+    
+}
+
+
+.btn{
+    
+    width: 120px;
+    height: 37px;
+    margin-left: 120px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+.container33{
+    width: 100%;
+    height:100% ;
+    background-color: rgb(71, 22, 41); 
+}
+.imageside33{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(48, 38, 38);
+}
+.textside33{
+    width: 100%;
+    height: 30%;
+    background-color: white; 
+}
+/* .holder22{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(122, 18, 18);
+    margin-left: 120px;
+
+} */
+.sale33{
+    width: 45px;
+    height: 48px;
+    background-color: rgb(99, 233, 128);
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    margin-top: -px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.book33{
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.blend33{
+
+/* padding-left: 120px; */
+font-size: 20px;
+
+
+}
+.price{
+    padding-left: 120px;
+    
+    
+}
+
+
+.btn{
+    
+    width: 120px;
+    height: 37px;
+    margin-left: 120px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Gofootertext{
+    background-color: rgb(175, 17, 17);
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.foot1{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.foot2{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+    display:block;
+}
+.foot3{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.foot4{
+    width: 340px;
+    height: 460px;
+    background-color: black;
+}
+.debrill{
+    padding-top: 130px;
+    padding-left: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+
+}
+.footbox1text{
+    padding-left: 80px;
+    padding-top: 25px;
+    font-family: sans-serif;
+    font-size:17px ;
+    color: white;
+
+}
+.services{
+    padding-top:110px ;
+    padding-left:40px ;
+    font-family: sans-serif;
+    color: white;
+}
+.listbox2{
+    padding-left:40px ;
+    padding-top:25px ;
+
+}
+.listl li{
+    padding: 8px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.ourproduct{
+    padding-top: 110px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+.listbox3{
+    padding-left:40px ;
+    padding-top:25px ;
+}
+.listbox3 li{
+    padding: 8px;
+    color: white;
+    font-family: sans-serif;
+}
+.socials{
+    padding-top: 110px;
+    padding-left: 40px; 
+    font-family: sans-serif;
+    color: white;
+}
