@@ -448,16 +448,17 @@ margin-top: 28px;
 .boximage1{
     width:600px;
     height: 400px;
-    background-color:red;
+    /* background-color:red; */
     border-radius: 10px;
     /* position: absolute; */
     /* margin-bottom: 200px; */
-    
+    background-image: url(/images/Screenshot\ \(43\).png);
+    background-size: cover;
 }
 .firstbox{
     width: 100%;
     height: 400px;
-    background-image: url(/images/Screenshot\ \(43\).png);
+    /* background-image: url(/images/Screenshot\ \(43\).png); */
     border-radius: 10px;
     background-size: cover;
 }
@@ -465,17 +466,18 @@ margin-top: 28px;
     border-radius: 10px;
     width: 506px;
     height: 300px;
-    background-color:rgb(191, 14, 14);
+    background-image:url(/images/Screenshot\ \(42\).png);
     position: relative;
     left: 14%;
     bottom: 150px;
+    background-size: cover;
    
 
 }
 .secondbox{
     width: 100%;
     height:300px ;
-    background-image: url(/images/Screenshot\ \(42\).png);
+    /* background-image: url(/images/Screenshot\ \(42\).png); */
     border-radius: 10px;
     background-size: cover;
     
