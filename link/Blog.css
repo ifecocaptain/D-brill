@@ -10,6 +10,141 @@ body{
     width: 100%;
     height: 1200px;
 }
+
+nav{
+    
+    display: flex;
+    height: 120px;
+    width: 100%;
+    background-color: white;
+}
+
+.navlist{
+    /* display: flex; */
+    /* margin: 40px; */
+    margin-top: 40px;
+    
+    margin-left: 150px;
+/* overflow: auto; */
+/* position: absolute; */
+}
+.navlist ul{
+    
+    list-style: none;
+    overflow: hidden; 
+    /* margin: 40px; */
+    /* margin-left: 600px; */
+    position: static;
+}
+.navlist ul li{
+    display:inline;
+    overflow: hidden;
+    position: static;
+}
+.navlist ul li a{
+
+    color: rgb(8, 14, 64);
+    text-decoration: none;
+    margin: 10px;
+    margin-left: ;
+    font-weight: bolder;
+    font-family: sans-serif;
+    position: static;
+}
+.navlist ul li:hover{
+    background:#446fa7;
+    border-radius: 8px;
+
+}
+.navlist ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: #446fa7;
+    /* margin-top: 15px; */
+    margin-left: -15px;
+}
+.navlist ul li:hover .sub-menu-1 ul{
+display: block;
+margin: 10px;
+}
+
+.navlist ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 5px;
+    /* border-bottom: 1px dotted red; */
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.navlist ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+
+}
+.navlist ul li:hover .sub-menu-1 ul li a:hover{
+    color: rgb(62, 233, 176);
+}
+
+
+
+.sub-menu-1{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.De-brill{
+    color: blue;
+    margin: 10px;
+    margin-top: 35px;font-family: sans-serif;
+}
+.De-brill span{
+    color: rgb(255, 94, 0);
+}
+
+
+.navbutton{
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.MAKE{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    width: 120px;
+    height: 35px;
+    border: none;
+    font-family: sans-serif;
+
+}
+.BECOME{
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    height:35px ;
+font-family: sans-serif;
+width: 180px;
+margin-left: 30px;
+
+}
+
+
+
+
+
+
+
+
+
 .blankspace{
     width: 100%;
     height: 500px;
