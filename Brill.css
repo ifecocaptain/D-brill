@@ -58,7 +58,7 @@ ul li ul.dropdown{
     display: none;
 }
 ul li a:hover {
-    background: #487fc7;
+    background: #c4c9cf;
 }
 ul li :hover ul.dropdown{
 display: block;
@@ -113,7 +113,7 @@ margin-left: 30px;
 
 }
 .image{
-    /* background-image:url(/images/IMG14.jpg) ; */
+    background-image:url(../images/IMG14.jpg) ;
      width: 100%;
     height:800px ; 
     background-position: center;
@@ -202,7 +202,7 @@ color: white;
 
         width: 48.8%;
         height: 497px;
-        /* background-image: url(/ss/Screenshot\ \(31\).png); */
+        background-image: url(../ss/Screenshot\ \(31\).png);
         margin-top: 100px;
          
         background-color: rgb(32, 233, 233);
@@ -453,13 +453,12 @@ margin-top: 28px;
     border-radius: 10px;
     /* position: absolute; */
     /* margin-bottom: 200px; */
-    background-image: url(/images/Screenshot\ \(43\).png);
-    background-size: cover;
+    /* background-size: cover; */
 }
 .firstbox{
     width: 100%;
     height: 400px;
-    /* background-image: url(/images/Screenshot\ \(43\).png); */
+    background-image: url(../images/Screenshot\ \(43\).png);
     border-radius: 10px;
     background-size: cover;
     background-color: #7b96b6;
@@ -468,7 +467,7 @@ margin-top: 28px;
     border-radius: 10px;
     width: 506px;
     height: 300px;
-    background-image:url(/images/Screenshot\ \(42\).png);
+    /* background-image:url(/images/Screenshot\ \(42\).png); */
     position: relative;
     left: 14%;
     bottom: 150px;
@@ -479,7 +478,7 @@ margin-top: 28px;
 .secondbox{
     width: 100%;
     height:300px ;
-    /* background-image: url(/images/Screenshot\ \(42\).png); */
+    background-image: url(../images/Screenshot\ \(42\).png);
     border-radius: 10px;
     background-size: cover;
     background-color: #446fa7;
@@ -507,7 +506,7 @@ margin-top: 28px;
 
 }
 .Gofootertext{
-    background-color: rgb(146, 137, 137);
+    background-color: black;
     width: 100%;
     height: 450px;
     display: flex;
@@ -515,23 +514,23 @@ margin-top: 28px;
 .foot1{
     width: 340px;
     height: 460px;
-    background-color: rgb(14, 13, 13);
+    /* background-color: rgb(14, 13, 13); */
 }
 .foot2{
     width: 340px;
     height: 460px;
-    background-color: rgb(14, 13, 13);
+    /* background-color: rgb(14, 13, 13); */
     display:block;
 }
 .foot3{
     width: 340px;
     height: 460px;
-    background-color:rgb(12, 12, 12) ;
+    /* background-color:rgb(12, 12, 12) ; */
 }
 .foot4{
     width: 340px;
     height: 460px;
-    background-color: rgb(12, 12, 12);
+    /* background-color: rgb(12, 12, 12); */
 }
 .debrill{
     padding-top: 130px;
@@ -540,8 +539,13 @@ margin-top: 28px;
     font-size: 20px;
 
 }
+.debrill span{
+    color: rgb(255, 72, 0);
+}
+
+
 .footbox1text{
-    padding-left: 80px;
+    padding-left:px;
     padding-top: 25px;
     font-family: sans-serif;
     font-size:17px ;
@@ -591,4 +595,4 @@ margin-top: 28px;
     ul li{
         display: none;
     }
-}
+} 
