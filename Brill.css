@@ -544,6 +544,8 @@ margin-top: 28px;
     color: orangered;
 
 }
+
+
 .Gofootertext{
     background-color: black;
     width: 100%;
@@ -552,24 +554,24 @@ margin-top: 28px;
 }
 .foot1{
     width: 340px;
-    height: 460px;
+    height: 450px;
     /* background-color: rgb(14, 13, 13); */
 }
 .foot2{
     width: 340px;
-    height: 460px;
+    height: 450px;
     /* background-color: rgb(14, 13, 13); */
     display:block;
 }
 .foot3{
     width: 340px;
-    height: 460px;
+    height: 450px;
     /* background-color:rgb(12, 12, 12) ; */
 }
 .foot4{
     width: 340px;
-    height: 460px;
-    /* background-color: rgb(12, 12, 12); */
+    height: 450px;
+    /* background-color: rgb(161, 4, 4); */
 }
 .debrill{
     padding-top: 130px;
@@ -625,10 +627,79 @@ margin-top: 28px;
     padding-top: 110px;
     padding-left: 40px; 
     font-family: sans-serif;
+    /* background-color: aliceblue; */
 }
+
+.fa{
+    padding: 10px ;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top: 40px;
+    height: 35px;
+    /* margin-left: 20px; */
+    /* padding-left: 30px; */
+}
+
+.fa-facebook{
+    padding: 10px ;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top: 40px;
+    height: 35px;
+    margin-left: 40px;
+    /* padding-left: 30px; */
+}
+
+
+
+.fa:hover{
+    opacity: 0.7
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+    
+}
+
+
+.fa-instagram{
+    background: #ece8e7;
+    color: rgb(252, 61, 13);
+    
+}
+
+
+
+.fa-twitter{
+    background: rgb(92, 227, 245);
+    color: rgb(221, 228, 233);
+    
+}
+
+
+
+
+
+
+
+
 .dropdownicon{
     /* display: none; */
 }
+
+
+
+
+
+
+
+
 
 @media screen and (max-width 680px){
     ul li{

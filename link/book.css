@@ -960,6 +960,10 @@ font-size: 20px;
     color: blue;
 
 }
+.debrill spam{
+    color: red;
+}
+
 .footbox1text{
     padding-left: 80px;
     padding-top: 25px;
@@ -1005,4 +1009,54 @@ font-size: 20px;
     padding-left: 40px; 
     font-family: sans-serif;
     color: white;
+}
+
+.fa{
+    padding: 10px ;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top: 40px;
+    height: 20px;
+
+}
+ .fa-facebook{
+    padding: 10px ;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top: 40px;
+    height: 20px;
+    margin-left: 40px;
+    /* padding-left: 30px; */
+} 
+
+
+
+.fa:hover{
+    opacity: 0.7
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+    
+}
+
+
+.fa-instagram{
+    background: #ece8e7;
+    color: rgb(250, 6, 6);
+    
+}
+
+
+
+.fa-twitter{
+    background: rgb(92, 227, 245);
+    color: rgb(221, 228, 233);
+    
 }
