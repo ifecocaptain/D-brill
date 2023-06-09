@@ -18,6 +18,8 @@ nav{
     width: 100%;
     background-color: white;
     border: 1px solid rgb(219, 216, 216);
+    position: fixed;
+
 }
 
 .navlist{
@@ -126,8 +128,22 @@ margin: 10px;
     font-family: sans-serif;
 
 }
+
+.MAKE:hover{
+background-color:red ;
+cursor: pointer;
+
+
+
+}
+
+
+
+
+
+
 .BECOME{
-    background-color: brown;
+    background-color: red;
     color: white;
     border: none;
     border-radius: 30px;
@@ -136,6 +152,10 @@ font-family: sans-serif;
 width: 180px;
 margin-left: 30px;
 
+}
+.BECOME:hover{
+    background-color:rgb(53, 9, 252) ;
+cursor: pointer;
 }
 
 
@@ -396,7 +416,7 @@ display: block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* word-spacing: 3px; */
 }
-.fa{
+.sewhite-img-attribute .fa{
     
     width: 25px;
     text-align: center;
@@ -407,25 +427,25 @@ display: block;
 
 }
 
-.fa-facebook{
+.sewhite-img-attribute .fa-facebook{
     padding: 5px ;
-    font-size: 30px;
+    font-size: 11px;
     width: 9px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 70px;
     height: 10px;
     margin-left: 40px;
     background-color: #180936;
     color: #fff;
 }
-.fa-twitter{
+.sewhite-img-attribute .fa-twitter{
     /* background: rgb(92, 227, 245); */
     color: rgb(17, 10, 44);
     
 }
-.fa-instagram{
+.sewhite-img-attribute .fa-instagram{
     /* background: rgb(92, 227, 245); */
     color: rgb(17, 10, 44);
     
@@ -757,7 +777,7 @@ cursor: pointer;
 
 
 .Gofootertext{
-    background-color: rgb(98, 98, 102);
+    background-color: rgb(1, 1, 19);
     width: 100%;
     height: 450px;
     display: flex;
@@ -808,7 +828,7 @@ cursor: pointer;
     padding-top:110px ;
     padding-left:40px ;
     font-family: sans-serif;
-    color: white;
+    color: rgb(27, 3, 247);
 }
 .listbox2{
     padding-left:40px ;
@@ -825,7 +845,7 @@ cursor: pointer;
     padding-top: 110px;
     padding-left: 40px;
     font-family: sans-serif;
-    color: white;
+    color: rgb(52, 8, 248);
 
 }
 .listbox3{
@@ -841,49 +861,49 @@ cursor: pointer;
     padding-top: 110px;
     padding-left: 40px; 
     font-family: sans-serif;
-    color: white;
+    color: rgb(51, 6, 250);
 
 }
 
-.fa{
+.foot4 .fa{
     padding: 10px ;
-    font-size: 30px;
-    width: 35px;
+    font-size: 20px;
+    width: 20px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
     margin-top: 40px;
-    height: 35px;
+    height: 20px;
     /* margin-left: 20px; */
     /* padding-left: 30px; */
 }
 
-.fa-facebook{
+.foot4 .fa-facebook{
     padding: 10px ;
-    font-size: 30px;
-    width: 35px;
+    font-size: 20px;
+    width: 20px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
     margin-top: 40px;
-    height: 35px;
+    height: 20px;
     margin-left: 40px;
     /* padding-left: 30px; */
 }
 
 
 
-.fa:hover{
+.foot4 .fa:hover{
     opacity: 0.7
 }
-.fa-facebook{
+.foot4 .fa-facebook{
     background: #3B5998;
     color: white;
     
 }
 
 
-.fa-instagram{
+.foot4 .fa-instagram{
     background: #ece8e7;
     color: rgb(252, 61, 13);
     
@@ -891,7 +911,7 @@ cursor: pointer;
 
 
 
-.fa-twitter{
+.foot4 .fa-twitter{
     background: rgb(92, 227, 245);
     color: rgb(221, 228, 233);
     

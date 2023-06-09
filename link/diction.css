@@ -9,7 +9,9 @@ nav{
     display: flex;
     height: 120px;
     width: 100%;
-    background-color: rgb(236, 173, 54);
+    background-color: rgb(196, 83, 17);
+    position: fixed;
+
 }
 
 .navlist{
@@ -389,7 +391,7 @@ padding-right: 10px;
 
 
 .Gofootertext{
-    background-color: rgb(175, 17, 17);
+    background-color: rgb(6, 2, 29);
     width: 100%;
     height: 450px;
     display: flex;
@@ -397,23 +399,23 @@ padding-right: 10px;
 .foot1{
     width: 340px;
     height: 460px;
-    background-color: black;
+    /* background-color: black; */
 }
 .foot2{
     width: 340px;
     height: 460px;
-    background-color: black;
+    /* background-color: black; */
     display:block;
 }
 .foot3{
     width: 340px;
     height: 460px;
-    background-color: black;
+    /* background-color: black; */
 }
 .foot4{
     width: 340px;
     height: 460px;
-    background-color: black;
+    /* background-color: black; */
 }
 .debrill{
     padding-top: 130px;
@@ -435,7 +437,7 @@ padding-right: 10px;
     padding-top:110px ;
     padding-left:40px ;
     font-family: sans-serif;
-    color: white;
+    color: rgb(73, 8, 253);
 }
 .listbox2{
     padding-left:40px ;
@@ -452,7 +454,7 @@ padding-right: 10px;
     padding-top: 110px;
     padding-left: 40px;
     font-family: sans-serif;
-    color: white;
+    color: rgb(29, 4, 255);
 }
 .listbox3{
     padding-left:40px ;
@@ -467,5 +469,5 @@ padding-right: 10px;
     padding-top: 110px;
     padding-left: 40px; 
     font-family: sans-serif;
-    color: white;
+    color: rgb(45, 9, 248);
 }
