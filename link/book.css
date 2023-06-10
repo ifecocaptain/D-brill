@@ -227,7 +227,7 @@ display: flex;
     width: 180px;
     height: 197px;
     background: #09e62e;
-    background-image: url(/books/Screen12.png);
+    background-image: url(./books/Screen12.png);
     background-repeat: no-repeat;
     border: none;
     margin-left: 35px;
@@ -316,7 +316,7 @@ margin: 20px;
     width: 180px;
     height: 196px;
     background: #09e62e;
-    background-image: url(/books/Screen13.png);
+    background-image: url(./books/Screen13.png);
     background-repeat: no-repeat;
     border: none;
     margin-left: 35px;
@@ -404,7 +404,7 @@ margin: 20px;
     width: 177px;
     height: 196px;
     background: #09e62e;
-    background-image: url(/books/Screen14.png);
+    background-image: url(./books/Screen14.png);
     background-repeat: no-repeat;
     border: none;
     margin-left: 35px;
@@ -495,7 +495,7 @@ margin: 20px;
         width: 249px;
         height: 255px;
         background: #0d0d0e;
-        background-image: url(/books/Screen102.png);
+        background-image: url(./books/Screen102.png);
         background-repeat: no-repeat;
         border: none;
         
@@ -602,7 +602,7 @@ cursor: pointer;
     width: 249px;
     height: 255px;
     background: #0d0d0e;
-    background-image: url(/books/Screen96.png);
+    background-image: url(./books/Screen96.png);
     background-repeat: no-repeat;
     border: none;
     
@@ -693,7 +693,7 @@ text-decoration: none;
         width: 250px;
         height: 256px;
         background: #3B5998;
-        background-image: url(/books/Screen93.png);
+        background-image: url(./books/Screen93.png);
         background-repeat: no-repeat;
         border: none;
         
@@ -783,7 +783,7 @@ text-decoration: none;
         width: 250px;
         min-height: 260px;
         background: #3B5998;
-        background-image: url(/books/Screen94.png);
+        background-image: url(./books/Screen94.png);
         background-repeat: no-repeat;
         border: none;
         
@@ -867,7 +867,7 @@ text-decoration: none;
         width: 250px;
         min-height: 259px;
         background: #3B5998;
-        background-image: url(/books/Screen95.png);
+        background-image: url(./books/Screen95.png);
         background-repeat: no-repeat;
         border: none;
         
@@ -973,7 +973,7 @@ text-decoration: none;
         width: 250px;
         min-height: 250px;
         background: #3B5998;
-        background-image: url(/books/Screen100.png);
+        background-image: url(./books/Screen100.png);
         background-repeat: no-repeat;
         border: none;
         
@@ -1008,6 +1008,19 @@ text-decoration: none;
     text-decoration: none;
     
     }
+    .book3-box1-text1 p a{
+        color: rgb(250, 4, 147);
+        font-size: 14px;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        text-decoration: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+         Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        }
+        .book3-box1-text1 p a:hover{
+            color: #021130;
+        }
+        
     
     .book3-box1-text1-price{
         /* padding-left: 90px; */
@@ -1050,7 +1063,7 @@ text-decoration: none;
         width: 250px;
         min-height: 250px;
         background: #3B5998;
-        background-image: url(/books/Screen98.png);
+        background-image: url(./books/Screen98.png);
         background-repeat: no-repeat;
         border: none;
         
@@ -1081,8 +1094,23 @@ text-decoration: none;
     .book3-box2-text p{
     color: rgb(250, 4, 147);
     font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* text-decoration: none; */
+    
+    }
+    .book3-box2-text p a{
+        color: rgb(250, 4, 147);
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+        Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+        font-weight: 500;
+        
+        
+        }
+        .book3-box2-text p a:hover{
+    color: rgb(10, 3, 46);
+   
     
     }
     
@@ -1124,7 +1152,7 @@ text-decoration: none;
         width: 250px;
         min-height: 250px;
         background: #3B5998;
-        background-image: url(/books/Screen99.png);
+        background-image: url(./Screen99.png);
         background-repeat: no-repeat;
         border: none;
         
@@ -1153,11 +1181,25 @@ text-decoration: none;
     
     }
     .book3-box3-text p{
-    color: rgb(250, 4, 147);
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
     
+    }
+    .book3-box3-text p a{
+    color: rgb(250, 4, 147);
+
+        text-decoration: none;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+         Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-weight: ;
+
+         font-weight: 500;
+
+
+    }
+    .book3-box3-text p a:hover{
+        color: #03112e;
     }
     
     .book3-box3-text-price{

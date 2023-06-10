@@ -129,8 +129,9 @@ margin: 10px;
 
 }
 
+
 .MAKE:hover{
-background-color:red ;
+background-color:rgb(255, 0, 0) ;
 cursor: pointer;
 
 
@@ -167,13 +168,15 @@ cursor: pointer;
     width: 100%;
     height: 670px;
     background-color: rgb(252, 251, 251);
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 100%;
+    display: flex;
+    /* margin-top: 20px; */
+   
+    
 
 }
 .firstwhite-one{
-    background-color: rgb(237, 237, 243);
+    width: 600px;
+    background-color: rgb(43, 43, 197);
     color: rgb(33, 30, 48);
     padding-top: 100px;
     padding-left: 80px;
@@ -195,11 +198,12 @@ cursor: pointer;
 }
 
 .firstwhite-second{
-    background-color: rgb(238, 243, 243);
+    background-color: white;
     /* border: 1px solid burlywood; */
     padding-top: 120px;
     padding-right: 50px;
     padding-left: 10px;
+    width: 600px;
 }
 .firstwhite-second p{
     color: rgb(141, 141, 136);
