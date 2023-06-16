@@ -10,6 +10,10 @@ body{
     margin: 0%;
     padding: 0%;
 }
+.containernav{
+    width: 100%;
+    height: 110px;
+}
 
 nav{
     
@@ -176,7 +180,7 @@ cursor: pointer;
 }
 .firstwhite-one{
     width: 600px;
-    background-color: rgb(43, 43, 197);
+    background-color: white;
     color: rgb(33, 30, 48);
     padding-top: 100px;
     padding-left: 80px;
@@ -263,7 +267,7 @@ cursor: pointer;
 }
 .container1-image{
     
-    background-image: url(/ss/Screenshot\ \(72\).png);
+    background-image: url(../ss/Screen72.png);
     background-repeat: no-repeat;
     
 }
@@ -304,7 +308,7 @@ height: 250px;
 }
 
 .container2-image{
-    background-image: url(/ss/Screenshot\ \(71\).png);
+    background-image: url(../ss/Screen71.png);
     background-repeat: no-repeat;
 }
 .container2-text{
@@ -343,7 +347,7 @@ height: 250px;
 }
 
 .container3-image{
-    background-image: url(/ss/Screenshot\ \(70\).png);
+    background-image: url(../ss/Screen70.png);
     background-repeat: no-repeat;
 }
 .container3-text{
@@ -394,7 +398,7 @@ display: block;
 .main-image{
     width: 80.9%;
     height: 530px;
-    background-image: url(/images/Screenshot\ \(79\).png);
+    background-image: url(../images/Screen79.png);
     margin-top: 100px;
     margin-left:130px ;
 }
@@ -530,7 +534,7 @@ display: block;
     height: 368px;
     background: white;
     margin: 20px;
-    background-image: url(/ss/Screenshot\ \(84\).png);
+    background-image: url(../ss/Screen84.png);
     background-repeat: no-repeat;
    
 
@@ -569,7 +573,7 @@ cursor: pointer;
     height: 368px;
     background: white;
     margin: 20px;
-    background-image: url(/ss/Screenshot\ \(85\).png);
+    background-image: url(../ss/Screen85.png);
     background-repeat: no-repeat;
 
 }
@@ -602,7 +606,7 @@ cursor: pointer;
     height: 368px;
     background: white;
     margin: 20px;
-    background-image: url(/ss/Screenshot\ \(86\).png);
+    background-image: url(../ss/Screen86.png);
     background-repeat: no-repeat;
 
 }
@@ -640,7 +644,7 @@ cursor: pointer;
     height: 368px;
     background: white;
     margin: 20px;
-    background-image: url(/ss/Screenshot\ \(83\).png);
+    background-image: url(../ss/Screen83.png);
     background-repeat: no-repeat;
 
 }
@@ -671,7 +675,7 @@ cursor: pointer;
     height: 368px;
     background: white;
     margin: 20px;
-    background-image: url(/ss/Screenshot\ \(87\).png);
+    background-image: url(../ss/Screen87.png);
     background-repeat: no-repeat;
 
 }
@@ -702,7 +706,7 @@ cursor: pointer;
     height: 368px;
     background: white;
     margin: 20px;
-    background-image: url(/ss/Screenshot\ \(88\).png);
+    background-image: url(../ss/Screen88.png);
     background-repeat: no-repeat;
 
 } 

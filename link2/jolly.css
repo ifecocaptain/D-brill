@@ -7,6 +7,10 @@ body{
     margin: 0;
     padding: 0;
 }
+.containernav{
+    width: 100%;
+    height: 125px;
+}
 
 nav{
     
@@ -15,6 +19,7 @@ nav{
     width: 100%;
     background-color: white;
     position: fixed;
+    border:  1px solid rgba(151, 149, 149, 0.274);
 
 }
 
@@ -124,6 +129,10 @@ margin: 10px;
     font-family: sans-serif;
 
 }
+.MAKE:hover{
+color: white;
+background: brown;
+}
 .BECOME{
     background-color: brown;
     color: white;
@@ -134,6 +143,9 @@ font-family: sans-serif;
 width: 180px;
 margin-left: 30px;
 
+}
+.BECOME:hover{
+    background: blue;
 }
 
 
@@ -420,6 +432,9 @@ p{
     color: blue;
 
 }
+.debrill span{
+    color: orangered;
+}
 .footbox1text{
     padding-left: 80px;
     padding-top: 25px;
@@ -432,7 +447,7 @@ p{
     padding-top:110px ;
     padding-left:40px ;
     font-family: sans-serif;
-    color: white;
+    color: blue;
 }
 .listbox2{
     padding-left:40px ;
@@ -449,7 +464,7 @@ p{
     padding-top: 110px;
     padding-left: 40px;
     font-family: sans-serif;
-    color: white;
+    color: blue;
 }
 .listbox3{
     padding-left:40px ;
@@ -464,5 +479,56 @@ p{
     padding-top: 110px;
     padding-left: 40px; 
     font-family: sans-serif;
+    color: blue;
+}
+.foot4 .fa{
+    padding: 10px ;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top: 40px;
+    height: 20px;
+    /* margin-left: 20px; */
+    /* padding-left: 30px; */
+}
+
+.foot4 .fa-facebook{
+    padding: 10px ;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top: 40px;
+    height: 20px;
+    margin-left: 40px;
+    /* padding-left: 30px; */
+}
+
+
+
+.foot4 .fa:hover{
+    opacity: 0.7
+}
+.foot4 .fa-facebook{
+    background: #3B5998;
     color: white;
+    
+}
+
+
+.foot4 .fa-instagram{
+    background: #ece8e7;
+    color: rgb(252, 61, 13);
+    
+}
+
+
+
+.foot4 .fa-twitter{
+    background: rgb(92, 227, 245);
+    color: rgb(221, 228, 233);
+    
 }
