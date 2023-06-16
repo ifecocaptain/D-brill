@@ -1,0 +1,558 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0%;
+    padding: 0%; 
+    
+
+background: yellowgreen;
+}
+.clasvav{
+    width: 100%;
+    height:80px ;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: rgb(252, 249, 249);
+    display: flex;
+    position: fixed;
+}
+nav .whatsapp{
+    display: flex;
+    align-items: center;
+    /* background: blue; */
+    margin-left: 40px;
+}
+nav .whatsapp .fa {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(7, 248, 7);
+}
+nav .whatsapp h1 a{
+    /* font-size: 15px; */
+    color: rgb(5, 202, 5);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+nav .features {
+    list-style: none;
+    /* margin-left: 30px; */
+    /* background: blue; */
+    /* margin-right: 90px; */
+    
+
+}
+nav .features ul{
+    list-style: none;
+    padding-left: 200px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+nav .features ul li{
+    float: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+}
+nav .features ul li a{
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+}
+nav .features ul .xupnav{
+    padding-left:60px ;
+}
+nav .features ul li a:hover{
+background-color: rgb(8, 179, 8);
+color: beige;
+border-radius: 30px;
+}
+
+nav .btn{
+background: rgb(5, 202, 5);
+border: none;
+width: 160px;
+height: 50px;
+/* margin-left: 10px; */
+border-radius: 50px;
+margin-top: 15px;
+font-size: 16px;
+/* border: 1px solid green; */
+color: black;
+}
+nav .btn:hover{
+    background-color: rgb(13, 223, 107);
+    color: white;
+}
+
+.whatsappcall{
+    width: 100%;
+    height: 450px;
+    background: rgb(231, 196, 129);
+    display: flex;
+    /* margin-top: 30px; */
+}
+.callleft{
+    background: rgba(186, 207, 186, 0.993);
+    height: 450px;
+     width: 55px;
+}
+.maincall{
+background: rgb(245, 244, 243);
+width: 92%;
+
+}
+.maincallline{
+    background: rgb(245, 244, 243);
+    width: 65%;
+    height: 450px;
+    margin-left: 220px;
+    text-align: center;
+    
+}
+.maincallline p{
+    font-size: 22px;
+    padding-top: 90px;
+}
+.maincallline button{
+background: rgb(3, 136, 107);
+width: 190px;
+height: 55px;
+margin-top: 60px;
+border-radius: 50px;
+font-size: 18px;
+border: none;
+color: white;
+margin-bottom: 35px;
+}
+.maincallline hr{
+    
+}
+.maincallline h2{
+    padding-top: 60px;
+    color: rgb(80, 70, 70);
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.maincallline h1{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+}
+.maincallline h1 a{
+    text-decoration: none;
+    color: rgb(4, 179, 248);
+    font-weight: 500;
+}
+
+
+
+.callright{
+    background: rgba(188, 207, 188, 0.993);
+    height: 450px;
+    width: 55px;
+}
+
+
+.footer{
+    background: rgb(44, 43, 43);
+    width: 100%;
+    height:470px ;
+}
+.footertop{
+    width: 100%;
+    height: 410px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.footertopbox1{
+    width: 230px;
+    height:410px ;
+    /* background: rgb(14, 204, 172); */
+    margin: 20px;
+       
+    margin-left: -15px;
+
+}
+.footertopbox1-icon{
+    display: flex;
+    width: 100%;
+    height: 210px;
+    /* background: rgb(20, 20, 20); */
+}
+.footertopbox1-icon h1{
+    padding-top: 95px;
+    padding-left: 9px;
+}
+.footertopbox1-icon h1 a{
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    /* padding-top: 15px; */
+
+}
+.footertopbox1-icon .fa{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    padding-top: 90px;
+    padding-left: 20px;
+    
+}
+.footertopbox1 .btn{
+    background: green;
+    width: 200px;
+    height: 60px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-top: 65px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.footertopbox1 .btn:hover{
+    background-color: azure;
+    color: black;
+}
+
+.footertopbox2{
+    width: 200px;
+    height:410px ;
+    /* background: rgb(52, 52, 80); */
+   
+    margin: 15px;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+.footertopbox2 h6{
+    color: white;
+    font-size: 16px;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+.footertopbox2 ul{
+    padding-top: 30px;
+    /* padding-right: 10px; */
+}
+.footertopbox2 li{
+list-style: none;
+font-size: 22px;
+padding: 10px;
+
+/* padding-top: 20px; */
+
+}
+.footertopbox2 li a{
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+.footertopbox3{
+    width: 200px;
+    height:410px ;
+    /* background: rgb(94, 94, 170); */
+    margin: 15px;
+
+}
+.footertopbox3 h6{
+    color: white;
+    font-size: 16px;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+.footertopbox3 ul{
+    padding-top: 30px;
+    /* padding-right: 10px; */
+}
+.footertopbox3 li{
+list-style: none;
+font-size: 22px;
+padding: 10px;
+
+/* padding-top: 20px; */
+
+}
+.footertopbox3 li a{
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.footertopbox4{
+    width: 200px;
+    height:410px ;
+    /* background: rgb(10, 10, 49); */
+    margin: 15px;
+}
+.footertopbox4 h6{
+    color: white;
+    font-size: 16px;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+.footertopbox4 ul{
+    padding-top: 30px;
+    /* padding-right: 10px; */
+}
+.footertopbox4 li{
+list-style: none;
+font-size: 22px;
+padding: 10px;
+
+/* padding-top: 20px; */
+
+}
+.footertopbox4 li a{
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+.footertopbox5{
+    width: 205px;
+    height:410px ;
+    /* background: rgb(61, 61, 68); */
+    margin: 15px;
+}
+.footertopbox5 h6{
+    color: white;
+    font-size: 16px;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+.footertopbox5 ul{
+    padding-top: 30px;
+    /* padding-right: 10px; */
+}
+.footertopbox5 li{
+list-style: none;
+font-size: 22px;
+padding: 10px;
+
+/* padding-top: 20px; */
+
+}
+.footertopbox5 li a{
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.footerdown{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(44, 43, 43);
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+}
+.inner-footerdown{
+    width: 85%;
+    height: 160px;
+    background-color: rgb(44, 43, 43);
+    /* display: flex; */
+    margin-left: 92px;
+}
+.inner-footerdown hr{
+    color: orange;
+    border-style:double;
+}
+
+.inner-footerdownmain{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    /* margin-left: 92px; */
+}
+.footerdownbox1{
+background: rgb(44, 43, 43);
+width: 30%;
+height: 160px;
+display: flex;
+}
+.footerdownbox1-text1{
+    /* background: aquamarine; */
+}
+.footerdownbox1-text1 p{
+    color: white;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     padding-top: 50px;
+}
+.footerdownbox1-text2{
+    /* background: rgb(110, 177, 155); */
+    margin-left: 80px;
+}
+.footerdownbox1-text2 p{
+    color: white;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     padding-top: 50px;
+}
+
+
+
+.footerdownbox2{
+    background-color: rgb(44, 43, 43);
+    width: 40%;
+    height: 160px;
+}
+    .footerdownbox2 .fa{
+        padding: 10px ;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin-top: 50px;
+        height: 20px;
+        
+      
+    }
+    
+     .fa-twitter{
+        padding: 10px ;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin-top: 40px;
+        height: 20px;
+        margin-left: 80px;
+        background: #2b011e;
+        color: white;
+        
+    }
+    .fa-twitter:hover{
+        background: rgb(0, 238, 255);
+        color: rgb(221, 228, 233);
+        
+    }
+
+
+    .fa-youtube{
+        padding: 10px ;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin-top: 40px;
+        height: 20px;
+        margin-left: 10px;
+        background: #2b011e;
+        color: white;
+        
+    }
+    .fa-youtube:hover{
+        background: red;
+        color: rgb(221, 228, 233);
+        
+    }
+
+    
+    .fa-instagram{
+        padding: 10px ;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin-top: 40px;
+        height: 20px;
+        margin-left: 10px;
+        background: #2b011e;
+        color: white; 
+    }
+    .fa-instagram:hover{
+        background: #f3efed;
+        color: red;
+        
+    }
+
+    .fa-facebook{
+        padding: 10px ;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin-top: 40px;
+        height: 20px;
+        margin-left: 10px;
+        background: #2b0118;
+        color: white;
+        
+    }
+    
+    
+    .fa-facebook:hover{
+        background: rgb(29, 29, 250);
+        
+    }
+    .footerdownbox3{
+        background-color: rgb(44, 43, 43);
+        width: 30%;
+        height: 160px;
+        
+        }
+        .footerdownbox3-select{
+            width: 300px;
+            height: 60px;
+            border-radius: 50px;
+            border: 2px solid white;
+            margin-left: 40px;
+            margin-top: 50px;
+            font-size: 20px;
+            padding-left: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+             Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+             font-weight: 500;
+             background-color: rgb(46, 2, 2);
+             color: aliceblue;
+        }
+    
+    
+    
+    
+     
+    
