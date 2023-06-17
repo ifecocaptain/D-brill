@@ -1,12 +1,16 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: white;
     margin: 0;
     padding: 0;
 }
 .containernav{
     width: 100%;
-    height: 110px;
-    background: black;
+    height: 120px;
+    background-color: #446fa7;
 }
 
 nav{
@@ -14,17 +18,19 @@ nav{
     display: flex;
     height: 120px;
     width: 100%;
-    background-color: rgb(196, 83, 17);
+    background-color: white;
     position: fixed;
+    border:  1px solid rgba(187, 184, 184, 0.315);
 
 }
+
 
 .navlist{
     /* display: flex; */
     /* margin: 40px; */
-    margin-top: 43px;
+    margin-top: 53px;
     
-    margin-left: 90px;
+    margin-left: 150px;
 /* overflow: auto; */
 /* position: absolute; */
 }
@@ -52,7 +58,7 @@ nav{
     position: static;
 }
 .navlist ul li a:hover{
-    background:#3003fa;
+    background:#0602fc;
     border-radius: 8px;
     color: white;
 
@@ -71,7 +77,7 @@ margin: 10px;
 
 .navlist ul li:hover .sub-menu-1 ul li{
     width: 150px;
-    padding: px;
+    padding: 5px;
     /* border-bottom: 1px dotted red; */
     background: transparent;
     border-radius: 0;
@@ -82,7 +88,7 @@ margin: 10px;
 
 }
 .navlist ul li:hover .sub-menu-1 ul li a:hover{
-    color: rgb(62, 233, 176);
+    color: white;
 }
 
 
@@ -110,8 +116,9 @@ margin: 10px;
 
 .De-brill{
     color: blue;
-    margin: 5px;
-    margin-top: 47px;font-family: sans-serif;
+    margin: 2px;
+    margin-top: 47px;
+    font-family: sans-serif;
 }
 .De-brill span{
     color: rgb(255, 94, 0);
@@ -135,7 +142,8 @@ margin: 10px;
 
 }
 .MAKE:hover{
-    background-color: brown;
+    color: white;
+    background: brown;
 }
 .BECOME{
     background-color: brown;
@@ -147,262 +155,85 @@ font-family: sans-serif;
 width: 180px;
 margin-left: 30px;
 
-
 }
 .BECOME:hover{
+    color: white;
     background: blue;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.headimage{
+.elijah{
     width: 100%;
-    height: 470px;
-    background-color:white;
+    height: 55px;
+    background: rgb(4, 173, 252);
 }
-.Screenshot32{
-    margin-left: 340px;
-    margin-top: 80px;
-}
-
-
-hr{
-    color: orange;
-    border-style:double;
-}
-
-
-
-.textpart{
-    width: 100%;
-    height: 280px;
-    background-color: white;
-    
-
-
-}
-.p1{
-font-family: sans-serif;
-color: rgb(116, 105, 105);
-padding-top: 25px;
-padding-left: 120px;
-font-size: 16px;
-line-height: 2;
-
-
-}
-.p2{
-    font-family: sans-serif;
-color: rgb(116, 105, 105);
-/* padding-top: 10px; */
-padding-left: 120px;
-font-size: 16px;
-line-height: 2;
-}
-
-
-.boxlist{
-    /* background-color: aqua; */
-    width: 100%;
-    height: 510px;
-    display: flex;
-
-}
-.englishpart{
-    width: 50%;
-    height: auto;
-    /* background-color: rgb(136, 151, 151); */
-    
-}
-.theenglishdiv{
-    width: 510px;
-    height: 90px;
-    background-color:orangered;
-    margin-left: 110px;
-    border-radius: 18px;
-    /* margin-bottom: 10px; */
-    text-align: center;
-    
-}
-.englishprogramme{
+.elijah p{
     color: white;
-    font-family: sans-serif;
-    padding-top: 20px;
-    font-size: 22px;
+    padding-left: 110px;
+    padding-top: 5px;
+    font-size: 35px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+     font-weight: 500;
 }
-.ullist{
+.container-img{
+    background: white;
+    width: 100%;
+    height: 400px;
+    align-items: center;justify-content: center;
+}
+.main-img{
+    width: 58%;
+    height:337px ;
+    background-color: #446fa7;
+    background-image: url(../ss/Screen105.png);
+    margin-left: 280px;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+}
+
+.downblue{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(6, 168, 243);
+}
+.downblue p{
     color: white;
-    padding-left: 50px;
-    font-size: 18px;
+    padding-left: 110px;
+    padding-top: 5px;
+    font-size: 35px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+     font-weight: 500;
+}
+.containertextwhite{
+    background: white;
+    width: 100%;
+    height: 380px;
+    align-items: center;justify-content: center;
+}
+ p{
+font-size: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.753);
+padding: 10px;
+
+padding-left: 110px;
+
+          
+
+}
+.phead{
+    padding-top: 40px;
+    font-weight: 500;
+    
+}
+.pfoot{
+    
     padding-top: 30px;
 }
-.ullist li{
-    padding: 5px;
-}
-
-
-
-
-.earlyyears{
-    width: 510px;
-    height: 310px;
-    background-color: rgb(245, 127, 9);
-    margin-left: 110px;
-    border-radius: 18px;
-    margin-top: 50px;
-}
-
-.amongpart{
-    width: 50%;
-    height: auto;
-    /* background-coclor: blue; */
-}
-
-.theamong{
-    width: 530px;
-    height: 90px;
-    background-color:orangered;
-    /* margin-right: 110px; */
-    border-radius: 18px;
-    margin-top: 20px;
-    margin-left: 20px;
-    text-align: center;
-
-}
-.amongtext{
-    color: white;
-    padding-top: 20px;
-    font-family: sans-serif;
-    font-size: 23px;
-}
-
-
-.transcription{
-    width: 510px;
-    height: 350px;
-    background-color: rgb(236, 117, 5);
-    margin-left: 20px;
-    border-radius: 18px;
-    margin-top: 50px;
-    /* text-align: center; */
-}
-.ultranscription{
-    color: white;
-    padding-left: 120px;
-    padding-top: 65px;
-
-}
-.ultranscription li{
-    padding: 5px;
-    font-size: 20px;
-}
-
-
-
-
-
-
-
-
-.Enjoypart{
-width: 100%;
-height: 420px;
-background-color: rgb(251, 249, 245);
-text-align: center;
-justify-content: center;
-}
-.youcan{
-    padding-top:40px;
-    font-size: 25px;
-    font-family: sans-serif;
-}
-.startside{
-    width: 100%;
-    height: 180px;
-    /* background-color:rgb(232, 144, 11); */
-    display: flex;
-}
-.durationside{
-    width: 49.9%;
-    height: 200px;
-    /* background-color: rgb(46, 97, 141); */
-text-align: right;
-padding-right: 10px;
-}
-.twoweeks{
-    color:orangered;
-    font-family: sans-serif;
-    font-size:40px ;
-}
-.twohours{
-    font-style: italic;
-    font-family: sans-serif;
-    font-size: 17px;
-}
-
-
-.horizontaldiv{
-    width: 4px;
-    height: auto;
-    background-color: black;
-    border-radius: 5px;
-}
-.investmentside{
-    width: 49.8%;
-    /* background-color: aqua; */
-    height: auto;
-    text-align: left;
-    padding-left: 10px;
-}
-.money50k{
-    color: orangered;
-    font-size:40px ;
-}
-.bracket{
-    font-style: italic;
-    font-family: sans-serif;
-    font-size:17px ;
-}
-.grouptraning{
-    font-size: 17px;
-    font-family: sans-serif;
-    font-style: italic;
-    font-weight: bold;
-}
-.starthere{
-    width: 220px;
-    height: 80px;
-    background-color: orangered;
-    border-radius: 15Px;
-    border: none;
-    color: white;
-    font-family: sans-serif;
-    font-size: 40px;
-}
-
 
 
 
@@ -412,7 +243,7 @@ padding-right: 10px;
 
 
 .Gofootertext{
-    background-color: rgb(6, 2, 29);
+    background-color: rgb(175, 17, 17);
     width: 100%;
     height: 450px;
     display: flex;
@@ -420,23 +251,23 @@ padding-right: 10px;
 .foot1{
     width: 340px;
     height: 460px;
-    /* background-color: black; */
+    background-color: rgb(1, 0, 8);
 }
 .foot2{
     width: 340px;
     height: 460px;
-    /* background-color: black; */
+    background-color: rgb(2, 0, 7);
     display:block;
 }
 .foot3{
     width: 340px;
     height: 460px;
-    /* background-color: black; */
+    background-color:  rgb(2, 0, 7);
 }
 .foot4{
     width: 340px;
     height: 460px;
-    /* background-color: black; */
+    background-color:  rgb(2, 0, 7);
 }
 .debrill{
     padding-top: 130px;
@@ -458,7 +289,7 @@ padding-right: 10px;
     padding-top:110px ;
     padding-left:40px ;
     font-family: sans-serif;
-    color: rgb(73, 8, 253);
+    color: rgb(50, 7, 245);
 }
 .listbox2{
     padding-left:40px ;
@@ -475,7 +306,7 @@ padding-right: 10px;
     padding-top: 110px;
     padding-left: 40px;
     font-family: sans-serif;
-    color: rgb(29, 4, 255);
+    color: rgb(42, 7, 245);
 }
 .listbox3{
     padding-left:40px ;
@@ -490,7 +321,7 @@ padding-right: 10px;
     padding-top: 110px;
     padding-left: 40px; 
     font-family: sans-serif;
-    color: rgb(45, 9, 248);
+    color: rgb(57, 5, 247);
 }
 .foot4 .fa{
     padding: 10px ;
@@ -543,4 +374,3 @@ padding-right: 10px;
     color: rgb(221, 228, 233);
     
 }
-
