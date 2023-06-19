@@ -26,7 +26,7 @@ nav{
     /* margin: 40px; */
     margin-top: 53px;
     
-    margin-left: 150px;
+    margin-left: 140px;
 /* overflow: auto; */
 /* position: absolute; */
 }
@@ -110,9 +110,11 @@ margin: 10px;
 }
 
 .De-brill{
-    color: blue;
+    color: rgb(2, 2, 61);
     margin: 2px;
-    margin-top: 47px;font-family: sans-serif;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 .De-brill span{
     color: rgb(255, 94, 0);
