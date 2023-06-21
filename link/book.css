@@ -178,6 +178,9 @@ grid-auto-columns: 100%;
     /* margin-top: 120px; */
     
 }
+.shop a{
+color: blue;
+}
 .homelink{
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1049,6 +1052,11 @@ text-decoration: none;
         padding-top: 10px;
       
     }
+     a s{
+        color: #b5bdb6;
+        text-decoration: none;
+    }
+
     .book3-box1-text1-btn{
         width: 120px;
         height: 37px;
@@ -1134,13 +1142,22 @@ text-decoration: none;
     
     }
     
-    .book3-box2-text-price{
+    .book3-box2-text-price {
         /* padding-left: 90px; */
         color: green;
         cursor: pointer;
         padding-top: 10px;
       
     }
+    /* .book3-box2-text a{
+        color: #c3d3c6;
+text-decoration: none;
+    } */
+    /* .book3-box2-text-price {
+color: #c3d3c6;
+text-decoration: none;
+
+    } */
     .book3-box2-text-btn{
         width: 120px;
         height: 37px;

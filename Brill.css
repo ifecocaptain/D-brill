@@ -52,8 +52,8 @@ nav{
     font-family: sans-serif;
     position: static;
 }
-.navlist ul li:hover{
-    background:#1304eb;
+.navlist ul li a:hover{
+    background:#0a0375;
     border-radius: 8px;
     color: white;
 
@@ -61,7 +61,7 @@ nav{
 .navlist ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background: #446fa7;
+    background: #f0f0f5;
     /* margin-top: 15px; */
     margin-left: -15px;
 }
@@ -72,7 +72,7 @@ margin: 10px;
 
 .navlist ul li:hover .sub-menu-1 ul li{
     width: 150px;
-    padding: 5px;
+    /* padding: 5px; */
     /* border-bottom: 1px dotted red; */
     background: transparent;
     border-radius: 0;
@@ -83,7 +83,7 @@ margin: 10px;
 
 }
 .navlist ul li:hover .sub-menu-1 ul li a:hover{
-    color: rgb(62, 233, 176);
+    color: white;
 }
 
 
@@ -110,7 +110,7 @@ margin: 10px;
 }
 
 .De-brill{
-    color: rgb(2, 2, 61);
+    color: rgb(6, 6, 168);
     margin: 2px;
     margin-top: 50px;
     font-family: sans-serif;
@@ -128,7 +128,7 @@ margin: 10px;
     margin-left: 50px;
 }
 .MAKE{
-    background-color: blue;
+    background-color: rgb(4, 4, 136);
     color: white;
     border-radius: 30px;
     width: 120px;
@@ -153,7 +153,7 @@ margin-left: 30px;
 
 }
 .BECOME:hover{
-    background-color:rgb(55, 0, 255) ;
+    background-color:rgb(34, 4, 143) ;
     cursor: pointer;
 }
 
