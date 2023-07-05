@@ -151,7 +151,7 @@ margin: 10px;
     height:35px ;
 font-family: sans-serif;
 width: 180px;
-margin-left: 30px;
+margin-left:30px;
 
 }
 .BECOME:hover{
@@ -227,30 +227,31 @@ border: none;
 }
 .whitecontainer{
     width: 100%;
-    height: 600px;
-    background: #f9f9fa;
+    height: auto;
+    background: #2e2eb3;
     display: flex;
 }
 .bookcontainer{
     width: 50%;
-    height: 600px;
-    background: white;
+    height: 920px;
+    background: rgb(187, 38, 38);
+
 
 
 }
 
 .imageside{
-    width: 100%;
-    height:420px ;
-    /* background: #0e0e80; */
+width: 100%;
+height:420px ;
+background: white;
 display: flex;
 align-items: center;
 justify-content: center;
 }
 .boxbook{
-    width: 46.7%;
+    width: 45%;
     height: 287px;
-    background: #e7e7ee;
+    background: #0aee0a;
     /* background-image: url(/books/Screen135.png); */
     background-repeat: no-repeat;
     margin-top: 30px;
@@ -295,46 +296,120 @@ opacity: 5px;
 
 .imagesidedown{
     width: 100%;
-    height:180px ;
-    /* background: #d4d7d8; */
+    height:140px ;
+    background: #d4d7d8;
     display: flex;
     /* align-items: center; */
     justify-content: center;
 }
 .book1{
-    width: 18%;
-    height: 120px;
-    background: #a8a6c7;
+    width: 17%;
+    height: 106px;
+    background: #1106aa;
     margin-right: 15px;
-    background-image: url(/books/Screen136.png);
+    background-image: url(/books/Screen150.png);
     background-repeat: no-repeat;
     /* margin-top: 8px; */
     
 }
 .book2{
-    width: 18%;
-    height: 139px;
+    width: 16%;
+    height: 126px;
     background: #3f36b8;
     margin-left: 30px;
-    background-image: url(/books/Screen137.png);
+    background-image: url(/books/Screen146.png);
     background-repeat: no-repeat;
 }
 .book3{
-    width: 17%;
-    height: 128px;
+    width: 16%;
+    height: 125px;
     background: #14132b;
     margin-left: 40px;
-    background-image: url(/books/Screen138.png);
+    background-image: url(/books/Screen147.png);
     background-repeat: no-repeat;
 }
 .book4{
-    width: 18%;
+    width: 16%;
+    height: 124px;
+    background: #0c0477;
+    margin-left: 40px;
+    background-image: url(/books/Screen143.png);
+    background-repeat: no-repeat;
+}
+
+.imagesidedown2{
+    width: 100%;
+    height:140px ;
+    background: #a9e409;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.book21{
+    width: 14%;
+    height: 114px;
+    background: #a8a6c7;
+    margin-right: 15px;
+    background-image: url(/books/Screen152.png);
+    background-repeat: no-repeat;
+    /* margin-top: 8px; */
+    
+}
+.book22{
+    width: 14%;
+    height: 115px;
+    background: #3f36b8;
+    margin-left: 30px;
+    background-image: url(/books/Screen151.png);
+    background-repeat: no-repeat;
+}
+.book23{
+    width: 16%;
+    height: 105px;
+    background: #14132b;
+    margin-left: 40px;
+    background-image: url(/books/Screen154.png);
+    background-repeat: no-repeat;
+}
+.book24{
+    width: 16%;
+    height: 124px;
+    background: #0c0477;
+    margin-left: 40px;
+    background-image: url(/books/Screen155.png);
+    background-repeat: no-repeat;
+}
+
+
+.imagesidedown3{
+    width: 100%;
+    height:180px ;
+    /* background: #d4d7d8; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+/*  */
+.book31{
+    width: 17%;
+    height: 138px;
+    background: #14132b;
+    margin-left: 40px;
+    background-image: url(/books/Screen151.1.png);
+    background-repeat: no-repeat;
+}
+.book32{
+    width: 17%;
     height: 135px;
     background: #0c0477;
     margin-left: 40px;
-    background-image: url(/books/Screen139.png);
+    background-image: url(/books/Screen152.1.png);
     background-repeat: no-repeat;
 }
+
+
+
+
 .textcontainer{
     width: 50%;
     height: 600px;
@@ -407,7 +482,7 @@ opacity: 5px;
     width: 100%;
     height: 450px;
     display: flex;
-    margin-top: 100px;
+    margin-top: 400px;
 }
 .foot1{
     width: 340px;
