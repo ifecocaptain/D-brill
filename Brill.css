@@ -215,6 +215,9 @@ color: white;
     font-size: 18px;
 
 }
+.more:hover{
+    background: rgb(34, 4, 143);
+}
 
 .job{
     width: 100%;
@@ -302,6 +305,11 @@ color: white;
         color: white;
         border: none;
 
+    }
+    .getin:hover{
+background-color: white;
+color:rgb(245, 115, 28) ;
+border: 2px solid rgb(245, 115, 28);
     }
 .choosetextheader{
     display:block ;
@@ -490,6 +498,11 @@ margin-top: 28px;
     color: white;
     
     
+}
+.discover:hover{
+    background-color: white;
+    color: brown;
+    border: 2px solid brown;
 }
 
 .beimage{

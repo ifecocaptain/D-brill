@@ -1,14 +1,14 @@
-
 *{
-    padding: 0%;
     margin: 0%;
+    padding: 0%;
+
 }
 
-
 body{
-    background-color: bisque;
-    width: 100%;
-    height: 1200px;
+    background-color: antiquewhite;
+    height: 2900px;
+    margin: 0%;
+    padding: 0%;
 }
 .containernav{
     width: 100%;
@@ -21,13 +21,14 @@ nav{
     height: 120px;
     width: 100%;
     background-color: white;
+    border: 1px solid rgb(219, 216, 216);
     position: fixed;
 
 }
 
 .navlist{
    
-    margin-top: 53px;
+    margin-top: 50px;
     
     margin-left: 140px;
 
@@ -56,15 +57,15 @@ nav{
     position: static;
 }
 .navlist ul li a:hover{
-    background:#1b02ff;
+    background:#036cf5;
     border-radius: 8px;
-    color: white;
+    color:white ;
 
 }
 .navlist ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background: #6b8197;
+    background: #446fa7;
     /* margin-top: 15px; */
     margin-left: -15px;
 }
@@ -75,7 +76,7 @@ margin: 10px;
 
 .navlist ul li:hover .sub-menu-1 ul li{
     width: 150px;
-    padding: 2px;
+    padding: 5px;
     /* border-bottom: 1px dotted red; */
     background: transparent;
     border-radius: 0;
@@ -86,7 +87,7 @@ margin: 10px;
 
 }
 .navlist ul li:hover .sub-menu-1 ul li a:hover{
-    color: rgb(249, 252, 251);
+    color: rgb(62, 233, 176);
 }
 
 
@@ -94,7 +95,6 @@ margin: 10px;
 .sub-menu-1{
     display: none;
 }
-
 
 
 
@@ -113,6 +113,7 @@ margin: 10px;
 }
 
 
+
 .De-brill{
     color: rgb(6, 6, 168);
     margin: 2px;
@@ -122,7 +123,6 @@ margin: 10px;
 }
 .De-brill span{
     color: rgb(255, 94, 0);
-
 }
 
 
@@ -142,11 +142,19 @@ margin: 10px;
     font-family: sans-serif;
 
 }
+
+
 .MAKE:hover{
-    background-color: brown;
+background-color:rgb(255, 0, 0) ;
+cursor: pointer;
+
+
+
 }
+
+
 .BECOME{
-    background-color: brown;
+    background-color: red;
     color: white;
     border: none;
     border-radius: 30px;
@@ -157,83 +165,6 @@ margin-left: 30px;
 
 }
 .BECOME:hover{
-    background-color: blue;
-}
-
-
-
-
-
-
-
-
-
-.blankspace{
-    width: 100%;
-    height: 490px;
-    background-color: rgb(138, 134, 143);
-}
-.topblankspace{
-background-color: rgb(148, 161, 161);
-width: 100%;
-height: 200px;
-display: flex;
-}
-.downblankspace{
-    width: 100%;
-    height: 294.5px;
-background-color: brown;
-}
-.udavid{
-    width: auto;
-    height: auto;
-    margin-top: 60px;
-    /* background-color: aquamarine; */
-    margin-left: 80px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 35px;
-    color: white;
-    font-style: italic;
-}
-.udavid a{
-color: white;
-
-}
-.udavid a:hover{
-    opacity: 0.6;
-    color: rgb(3, 3, 65);
-}
-.samplepage{
-
-    width: auto;
-    height: auto;
-    /* background-color: aquamarine; */
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 30px;
-    /* float: right; */
-    margin-left: 900px;
-    margin-top: 60px;
-}
-.samplepage a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-.samplepage a:hover{
-    opacity: 0.7;
-    color: blue;
-}
-.uhelloword{
-    font-size:35px ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 100px ;
-    padding: 80px;
-
-}
-.bird{
-    height: 295px;
-    width: 100%;
-    /* background-color: rgb(22, 112, 85); */
+    background-color:rgb(53, 9, 252) ;
+cursor: pointer;
 }

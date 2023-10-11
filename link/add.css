@@ -23,16 +23,19 @@ nav{
     height: 120px;
     width: 100%;
     background-color: white;
-    /* background-position:fixed; */
-    position: sticky;
+    position: fixed;
     border: 2px solid rgba(15, 14, 14, 0.103);
 
 }
 
 .navlist{
+    /* display: flex; */
+    /* margin: 40px; */
     margin-top: 53px;
     
-    margin-left: 140px;
+    margin-left: 150px;
+/* overflow: auto; */
+/* position: absolute; */
 }
 .navlist ul{
     
@@ -49,10 +52,10 @@ nav{
 }
 .navlist ul li a{
 
-   
     color: rgb(8, 14, 64);
     text-decoration: none;
     margin: 10px;
+    margin-left: ;
     font-weight: bolder;
     font-family: sans-serif;
     position: static;
@@ -66,13 +69,13 @@ nav{
 .navlist ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background: #dfe3e7;
+    background: #446fa7;
     /* margin-top: 15px; */
     margin-left: -15px;
 }
 .navlist ul li:hover .sub-menu-1 ul{
 display: block;
-margin: 6px;
+margin: 10px;
 }
 
 .navlist ul li:hover .sub-menu-1 ul li{
@@ -88,7 +91,7 @@ margin: 6px;
 
 }
 .navlist ul li:hover .sub-menu-1 ul li a:hover{
-    color: rgb(247, 248, 248);
+    color: rgb(62, 233, 176);
 }
 
 
@@ -115,11 +118,9 @@ margin: 6px;
 
 
 .De-brill{
-    color: rgb(6, 6, 168);
+    color: blue;
     margin: 2px;
-    margin-top: 50px;
-    font-family: sans-serif;
-    font-size: 20px;
+    margin-top: 47px;font-family: sans-serif;
 }
 .De-brill span{
     color: rgb(255, 94, 0);
@@ -172,7 +173,7 @@ grid-auto-columns: 100%;
 }
 .shop{
     width: 100%;
-    height: 170px;
+    height: 275px;
     background-color: white;
     /* margin-top: 120px; */
     
@@ -180,10 +181,56 @@ grid-auto-columns: 100%;
 .shop a{
 color: blue;
 }
+.topdiv{
+    width: 85%;
+    height: 70px;
+    /* background: #eee7ec; */
+    margin-left:99px ;
+    margin-top: 15px;
+}
+hr {
+    border: 2px solid rgba(83, 170, 40, 0.993);
+}
+
+
+.lighttop{
+    width: 100%;
+    height: 64px;
+    background: #f5f5f7;
+    display: flex;
+    /* margin-left: 99px; */
+}
+.lighttop p{
+    padding-left: 50px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+}
+.lighttop .btn{
+    margin-left: 600px;
+    margin-top: 15px;
+    width: 100px;
+background-color:#e7e7ee;
+height: 32px;
+border: none;
+}
+.lighttop .btn a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 16px;
+     text-decoration: none;
+     font-weight: 700;
+
+}
+
+
+
+
 .homelink{
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(99, 94, 94);
+    color: rgb(95, 99, 94);
     padding-left: 100px;
 
 }
@@ -199,16 +246,16 @@ color: blue;
 .pshop{
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(99, 94, 94);
+    color: rgb(93, 94, 91);
     padding-left: 100px;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 .selectclass{
     margin-left: 1010px;
     width:230px ;
     height: 45px;
     /* display: absolute; */
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 
 }
 
@@ -223,7 +270,6 @@ color: blue;
     align-items: center;
     justify-content: center;
    
-
    
 }
 .container11{
@@ -235,6 +281,7 @@ color: blue;
 grid-auto-rows: 100%;
 margin: 20px;
 }
+
 .imageside11{
     width: 100%;
 height: 300px;
@@ -269,6 +316,7 @@ display: flex;
     font-weight: bolder;
     cursor: pointer;
     /* float: right; */
+    overflow: hidden;5..
 }
 .textside11{
     width: 100%;
@@ -382,6 +430,8 @@ margin: 20px;
 
 
 
+
+
 .textside12-price{
     color: green;
     cursor: pointer;
@@ -400,10 +450,6 @@ margin: 20px;
     background: #dbd5d2;
     
 }
-
-
-
-
 
 
 
@@ -1108,6 +1154,7 @@ text-decoration: none;
         font-family: sans-serif;
         font-weight: bolder;
         cursor: pointer;
+        overflow: hidden;
     }
     
     .book3-box2-text{

@@ -228,13 +228,14 @@ border: none;
 .whitecontainer{
     width: 100%;
     height: auto;
-    background: #2e2eb3;
+    /* background: #2e2eb3; */
     display: flex;
+    
 }
 .bookcontainer{
     width: 50%;
-    height: 920px;
-    background: rgb(187, 38, 38);
+    height: 860px;
+    /* background: rgb(187, 38, 38); */
 
 
 
@@ -251,7 +252,7 @@ justify-content: center;
 .boxbook{
     width: 45%;
     height: 287px;
-    background: #0aee0a;
+    /* background: #0aee0a; */
     /* background-image: url(/books/Screen135.png); */
     background-repeat: no-repeat;
     margin-top: 30px;
@@ -296,8 +297,8 @@ opacity: 5px;
 
 .imagesidedown{
     width: 100%;
-    height:140px ;
-    background: #d4d7d8;
+    height:135px ;
+    /* background: #d4d7d8; */
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -307,7 +308,7 @@ opacity: 5px;
     height: 106px;
     background: #1106aa;
     margin-right: 15px;
-    background-image: url(/books/Screen150.png);
+    background-image: url(../books/Screen150.png);
     background-repeat: no-repeat;
     /* margin-top: 8px; */
     
@@ -317,7 +318,7 @@ opacity: 5px;
     height: 126px;
     background: #3f36b8;
     margin-left: 30px;
-    background-image: url(/books/Screen146.png);
+    background-image: url(../books/Screen146.png);
     background-repeat: no-repeat;
 }
 .book3{
@@ -325,7 +326,7 @@ opacity: 5px;
     height: 125px;
     background: #14132b;
     margin-left: 40px;
-    background-image: url(/books/Screen147.png);
+    background-image: url(../books/Screen147.png);
     background-repeat: no-repeat;
 }
 .book4{
@@ -333,14 +334,14 @@ opacity: 5px;
     height: 124px;
     background: #0c0477;
     margin-left: 40px;
-    background-image: url(/books/Screen143.png);
+    background-image: url(../books/Screen143.png);
     background-repeat: no-repeat;
 }
 
 .imagesidedown2{
     width: 100%;
-    height:140px ;
-    background: #a9e409;
+    height:135px ;
+    /* background: #a9e409; */
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -350,7 +351,7 @@ opacity: 5px;
     height: 114px;
     background: #a8a6c7;
     margin-right: 15px;
-    background-image: url(/books/Screen152.png);
+    background-image: url(../books/Screen152.png);
     background-repeat: no-repeat;
     /* margin-top: 8px; */
     
@@ -360,7 +361,7 @@ opacity: 5px;
     height: 115px;
     background: #3f36b8;
     margin-left: 30px;
-    background-image: url(/books/Screen151.png);
+    background-image: url(../books/Screen151.png);
     background-repeat: no-repeat;
 }
 .book23{
@@ -368,7 +369,7 @@ opacity: 5px;
     height: 105px;
     background: #14132b;
     margin-left: 40px;
-    background-image: url(/books/Screen154.png);
+    background-image: url(../books/Screen152.0.png);
     background-repeat: no-repeat;
 }
 .book24{
@@ -376,7 +377,7 @@ opacity: 5px;
     height: 124px;
     background: #0c0477;
     margin-left: 40px;
-    background-image: url(/books/Screen155.png);
+    background-image: url(../books/Screen155.png);
     background-repeat: no-repeat;
 }
 
@@ -395,7 +396,7 @@ opacity: 5px;
     height: 138px;
     background: #14132b;
     margin-left: 40px;
-    background-image: url(/books/Screen151.1.png);
+    background-image: url(../books/Screen151.1.png);
     background-repeat: no-repeat;
 }
 .book32{
@@ -403,7 +404,7 @@ opacity: 5px;
     height: 135px;
     background: #0c0477;
     margin-left: 40px;
-    background-image: url(/books/Screen152.1.png);
+    background-image: url(../books/Screen152.1.png);
     background-repeat: no-repeat;
 }
 
@@ -439,6 +440,10 @@ opacity: 5px;
     padding-top: 20px;
     color: rgb(104, 101, 101);
     font-size: 18px;
+}
+.inputnumber{
+    width: 50px;
+    height: 40px;
 }
 .textcontainer  button{
     margin-top: 20px;
