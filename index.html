@@ -21,7 +21,7 @@
 
         
         <h1 class="De-brill">DE<span>-</span>BRILL <span>CONSULTS, LTD</span></h1>
-<div  class="navlist">
+<div  class="navlist"  id="dropdownClick">
     <ul>
         <li><a href="./index.html">Home</a></li>
         <li>
@@ -47,6 +47,8 @@
         <li><a href="./link/pat2023.html">PATS 2023</a></li>
         <li><a href="./link/blog.htm">Blog</a></li>
         <li><a href="./link/about.html">About</a></li>
+
+        <li class="dropdownIcon"><a href="javascript:void(0);"   onclick="dropdownMenu()">&#9776; </a></li>
     
     </ul>
     
@@ -219,10 +221,19 @@ language and communication <br>studies.</p>
         <div class="concept"></div>
     </div>
 
+<!-- 
+<script>
+    function dropdownMenu(){
+    var x = document.getElementById("dropdownClick");
+    if (x.className === "navlist"){
+        x.className === " responsive";
+    } else{
+        x.className = "navlist"
+    }
+}
+</script> -->
 
 
-
-
-   <script src="./Brill.js"></script> 
+   <script src="/Brill.js"></script> 
 </body>
 </html>
